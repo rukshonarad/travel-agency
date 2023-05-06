@@ -1,0 +1,36 @@
+* {
+    max-width: 1400px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    color: rgb(49, 44, 44);
+    margin-left: 15px;
+}
+/* Header */
+
+#header {
+    max-width: 1440px;
+    height: 1300px;
+    background-image: url(./background.jpg);
+}
+.navigation-section {
+    height: 65px;
+    background-color: rgb(187, 226, 246);
+    display: flex;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 700px;
+    gap: 20px;
+}
