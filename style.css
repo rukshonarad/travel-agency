@@ -1,11 +1,14 @@
 * {
-    max-width: 1400px;
+    max-width: 1440px;
     box-sizing: border-box;
 }
 body {
     font-family: "Poppins", sans-serif;
 }
 ul {
+    list-style-type: none;
+}
+ol {
     list-style-type: none;
 }
 a {
@@ -31,13 +34,12 @@ h3 {
 p {
     color: rgb(14, 14, 14);
     text-align: center;
-    margin-top: 150px;
     font-size: 25px;
 }
 /* Header */
 
 #header {
-    max-width: 1440px;
+    max-width: 1400px;
     height: 1300px;
     background-color: rgb(242, 239, 236);
 }
@@ -48,6 +50,12 @@ p {
     border-radius: 10px;
 }
 
+.header-paragraph {
+    color: rgb(14, 14, 14);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
+}
 .navigation-links {
     display: flex;
     justify-content: space-between;
@@ -67,4 +75,16 @@ p {
 #iframe {
     margin-top: 50px;
     margin-left: 200px;
+}
+.destinations-section {
+    background-color: rgb(231, 241, 246);
+}
+.destination-img {
+    height: auto;
+    width: 700px;
+    margin-left: 250px;
+    border-radius: 25px;
+}
+.destinations-list {
+    display: flex;
 }
