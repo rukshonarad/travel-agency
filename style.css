@@ -111,3 +111,21 @@ th {
     display: flex;
     gap: 70px;
 }
+.contact-us {
+    font-size: 30px;
+    color: rgb(84, 92, 99);
+}
+#emailInput {
+    margin-top: 25px;
+}
+#phoneNumberInput {
+    margin-top: 25px;
+}
+.form-section {
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(183, 200, 187);
+    border-radius: 15px;
+    margin-left: 500px;
+}
