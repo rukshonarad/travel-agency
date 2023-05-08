@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact US</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Libre+Franklin:ital,wght@0,600;1,300&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <section class="contact-header">
+            <h1>Contact Us</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Office Name</th>
+                        <th>Address</th>
+                        <th>Contact Number</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bismillah Travel</td>
+                        <td><em> 235 Shore Rode, Brooklyn, New York</em></td>
+                        <td>+1 123 456 7890</td>
+                        <td>bismillah@travel.org</td>
+                    </tr>
+                    <tr>
+                        <td>Bismillah Travel</td>
+                        <td><em> 456 Brank Avenue, Brooklyn, New York</em></td>
+                        <td>+1 987 654 3210</td>
+                        <td>rukhshona@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form class="form-section">
+                <h2 class="contact-us">Inquiry form</h2>
+
+                <label for="userNameInput">User Name:</label>
+                <input
+                    type="text"
+                    id="userNameInput"
+                    name="userName"
+                    placeholder="User Name"
+                    autofocus
+                    required
+                />
+                <br />
+                <label for="emailInput">Email Address:</label>
+                <input
+                    type="email"
+                    id="emailInput"
+                    name="email"
+                    required
+                    placeholder="Email Address"
+                />
+                <br />
+                <label for="phoneNumberInput">Phone Number:</label>
+                <input
+                    type="tel"
+                    id="phoneNumberInput"
+                    name="phoneNumber"
+                    placeholder="Phone Number"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required
+                />
+                <div>
+                    <label for="preferredDestinationSelect"
+                        >Preferred Destinations:</label
+                    >
+                    <select
+                        name="preferredDestination"
+                        id="preferredDestinationSelect"
+                    >
+                        <option value="Dubai">Dubai</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="Paris">Paris</option>
+                    </select>
+                </div>
+                <h4>Preferred Travel Service:</h4>
+                <label for="preferredFlightCheckbox">Flight</label>
+                <input
+                    type="checkbox"
+                    id="preferredFlightCheckbox"
+                    name="isFlightChecked"
+                />
+                <label for="preferredHotelCheckbox">Hotel</label>
+                <input
+                    type="checkbox"
+                    id="preferredHotelCheckbox"
+                    name="isHotelChecked"
+                    required
+                />
+                <label for="preferredTourCheckbox">Tour</label>
+                <input
+                    type="checkbox"
+                    id="preferredTourCheckbox"
+                    name="isTourChecked"
+                />
+                <label for="preferredCarRentalCheckbox">Car Rental</label>
+                <input
+                    type="checkbox"
+                    id="preferredCarRentalCheckbox"
+                    name="isCarRentalChecked"
+                />
+                <h4>Best way to contact:</h4>
+                <label for="emailRadioInput">Email</label>
+                <input
+                    type="radio"
+                    id="emailRadioInput"
+                    name="comunicationFormat"
+                    value="Email"
+                />
+                <label for="phoneNumberRadioInput">Phone Number</label>
+                <input
+                    type="radio"
+                    id="phoneNumberRadioInput"
+                    name="comunicationFormat"
+                    value="Phone Number"
+                />
+                <label for="smsRadioInput">SMS</label>
+                <input
+                    type="radio"
+                    id="smsRadioInput"
+                    name="comunicationFormat"
+                    value="SMS"
+                />
+                <br />
+
+                <label for="commentTextarea">Leave Your Comment Here:</label>
+                <textarea
+                    name="coments"
+                    id="commentTextarea"
+                    cols="30"
+                    rows="5"
+                    required
+                ></textarea>
+                <br />
+                <input type="submit" value="Submit Now" />
+            </form>
+            <section class="question-section">
+                <h5>FAQs</h5>
+                <dl>
+                    <dt>
+                        <strong
+                            >Q: How do I book a trip with your travel
+                            agency?</strong
+                        >
+                    </dt>
+                    <dd>
+                        A: Booking a trip with us is easy! You can either visit
+                        our website and use our online booking system, or you
+                        can give us a call and speak <br />to one of our travel
+                        experts who will assist you in making your reservation.
+                    </dd>
+
+                    <dt>
+                        <strong>
+                            Q: What types of travel services do you
+                            offer?</strong
+                        >
+                    </dt>
+                    <dd>
+                        A: We offer a wide range of travel services, including
+                        flight bookings, hotel accommodations, vacation
+                        packages, car rentals, cruise bookings, <br />
+                        and personalized tour arrangements. Whether you need a
+                        simple flight ticket or a complete vacation package,
+                        we've got you covered!
+                    </dd>
+
+                    <dt>
+                        <strong>
+                            Q: Can you help me with visa and passport
+                            requirements?</strong
+                        >
+                    </dt>
+                    <dd>
+                        A: Absolutely! We can provide you with information on
+                        visa and passport requirements for various destinations.
+                        However, it's important to note that obtaining visas and
+                        passports is ultimately the responsibility of the
+                        traveler. We recommend checking with the relevant
+                        embassies or consulates for the most up-to-date
+                        information.
+                    </dd>
+
+                    <dt>
+                        <strong> Q: What is your cancellation policy?</strong>
+                    </dt>
+                    <dd>
+                        A: Our cancellation policy varies depending on the type
+                        of booking and the terms and conditions of our
+                        suppliers. We always strive to provide <br />our
+                        customers with the most flexible options possible. When
+                        you make a booking, our travel experts will explain the
+                    </dd>
+                </dl>
+            </section>
+        </section>
+        <footer class="contact-footer">
+            <div class="contact-footer-logo">
+                <img src="./images/plane.png" alt="plane" class="small-plane" />
+                <h4 class="footer-logo">Bismillah Travel</h4>
+            </div>
+
+            <h6>
+                <p><strong>Bismillah Travel</strong></p>
+                <p><strong>Phone:</strong> +1 123-456-7890</p>
+                <p><strong>Email:</strong> bismillah@travel.org</p>
+            </h6>
+            <div class="social-icons">
+                <img
+                    src="./images/Facebook.svg"
+                    alt="Facebook"
+                    class="social-icon"
+                />
+
+                <img
+                    src="./images/YouTube.svg"
+                    alt="youtube"
+                    class="social-icon"
+                />
+
+                <img
+                    src="./images/Twitter.svg"
+                    alt="twitter"
+                    class="social-icon"
+                />
+            </div>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/5s8fs_j2xlY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+            ></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24243.159396611147!2d-73.98616306635824!3d40.577037390944525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24469f98ebee1%3A0x804d6e47ad8b87ca!2sBNT%20Travel%20Group!5e0!3m2!1sen!2sus!4v1683550954050!5m2!1sen!2sus"
+                width="600"
+                height="315"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <h6>© 2022-2023 Bismillah Travel.</h6>
+        </footer>
+    </body>
+</html>
