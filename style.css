@@ -40,7 +40,7 @@ p {
 /* Header */
 
 #header {
-    max-width: 1400px;
+    max-width: 1440px;
     height: 1300px;
     background-color: rgb(242, 239, 236);
 }
@@ -96,7 +96,8 @@ p {
 }
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin-left: 100px;
 }
 
 th,
@@ -107,6 +108,8 @@ td {
 th {
     background-color: #d5c5ac;
 }
+
+/* Contact */
 .information {
     display: flex;
     gap: 70px;
@@ -123,9 +126,61 @@ th {
 }
 .form-section {
     text-align: center;
-    width: 350px;
-    height: 300px;
-    background-color: rgb(183, 200, 187);
+    width: 650px;
+    height: 550px;
     border-radius: 15px;
-    margin-left: 500px;
+    margin-left: 330px;
+    background-color: #d5c5ac;
+}
+h5 {
+    color: rgb(116, 101, 101);
+    font-size: 30px;
+    text-align: center;
+}
+dl {
+    color: rgb(95, 102, 108);
+}
+.question-section {
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    width: 1200px;
+    background-color: rgb(222, 235, 233);
+    border-radius: 15px;
+}
+.contact-header {
+    max-width: 1440px;
+    height: 1250px;
+    background-color: rgb(222, 235, 233);
+}
+/* Footer */
+.contact-footer {
+    background-color: rgb(236, 225, 225);
+    max-width: 1440px;
+}
+.contact-footer-logo {
+    display: flex;
+}
+.small-plane {
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-logo {
+    font-size: 30px;
+    color: rgb(147, 157, 165);
+}
+h6 {
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+}
+.social-icons {
+    margin-left: 550px;
+    margin-bottom: 15px;
+}
+.social-icon {
+    border-radius: 25px;
 }
