@@ -18,6 +18,7 @@ a {
 h1 {
     color: rgb(49, 44, 44);
     margin-left: 15px;
+    text-align: center;
 }
 h2 {
     text-align: center;
@@ -87,4 +88,26 @@ p {
 }
 .destinations-list {
     display: flex;
+}
+/* Destination Page */
+
+.destination-table {
+    background-color: rgb(222, 242, 239);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid rgb(200, 190, 194);
+    text-align: center;
+}
+th {
+    background-color: #d5c5ac;
+}
+.information {
+    display: flex;
+    gap: 70px;
 }
